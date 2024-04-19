@@ -112,17 +112,40 @@ body {
     border: 2px solid #32b9cd;
     position: relative;
 }
+.card3 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 55%;
+    width: 25%;
+    border-radius: 10px;
+    position: relative;
+}
+
 .card h2 {
     color: palevioletred;
 }
 .card2 h2 {
     color: palevioletred;
 }
+.card3 h2{
+    color: palevioletred;
+}
+.card3 label {
+    color:palevioletred;
+    font-weight: bold;
+}
 
 .campo {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.campo2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 .formulario{
     display: flex;
@@ -134,9 +157,9 @@ body {
 .formulario2{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
-    height: 100%;
+    height: 80%;
 }
 
 .campo input {
@@ -144,6 +167,13 @@ body {
     padding: 7px 15px;
     border: 2px solid #32b9cd;
 }
+.campo2 input {
+    width: 200px;
+    padding: 7px 15px;
+    border: 2px solid #32b9cd;
+    text-align: center;
+}
+
 
 .formulario button{
     align-items: center;
@@ -156,10 +186,13 @@ body {
 .formulario2 button{
     align-items: center;
     margin-top: 20px;
-    padding: 10px 20px;
+    padding: 20px 30px;
     background-color: palevioletred;
     border: none;
-    color: #fff
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 15px;
 }
 
 .header a{
